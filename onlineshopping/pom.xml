@@ -7,11 +7,23 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>onlineshopping Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <!-- version information -->
+  
+  
   <properties>
   <javaee.version>7.0</javaee.version>
   <spring.version>4.3.6.RELEASE</spring.version>
   </properties>
   <dependencies>
+  
+  <!-- Link backend project -->
+  <dependency>
+  <groupId>com.hobab</groupId>
+	<artifactId>shoppingbackend</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+  </dependency>
+  
+  
   <!-- JAVA EE API -->
   
 <dependency>
